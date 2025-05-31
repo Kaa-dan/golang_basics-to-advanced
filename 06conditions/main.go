@@ -35,4 +35,16 @@ func main() {
 		fmt.Println("to far away")
 	}
 
+	//switch like else if
+
+	t := time.Now()
+	switch {
+	case t.Hour() < 12:
+		fmt.Println("Good morning")
+	case t.Hour() < 17:
+		fmt.Println("good afternoon")
+	default:
+		fmt.Println("good evening")
+	}
+
 }
