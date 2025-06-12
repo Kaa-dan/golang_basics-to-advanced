@@ -54,7 +54,7 @@ func main() {
 
 	// two dimensional slices
 
-	board := [][]string{[]string{"nithin", "raj"}, []string{"nithin", "raj"}}
+	board := [][]string{{"nithin", "raj"}, {"nithin", "raj"}}
 
 	for i := 0; i < len(board); i++ {
 		fmt.Printf("%s\n", strings.Join(board[i], ""))
