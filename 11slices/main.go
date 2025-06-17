@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	names := [4]string{"nithin", "raja", "vadhu", "vatt"}
 
 	fmt.Println(names)
