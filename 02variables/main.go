@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 const LoginToken string = "gghdd" // public variable starts with capital leter
 
@@ -45,4 +48,9 @@ func main() {
 	numberOfUser := 3000
 
 	fmt.Println(numberOfUser)
+
+	// errors
+
+	err := errors.New("hello")
+	fmt.Println(err)
 }

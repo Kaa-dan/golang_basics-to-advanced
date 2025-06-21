@@ -1,3 +1,4 @@
--> check why we can use var for initialising map 
 -> deep learn intefaces 
 -> deep learn channels
+-> user inputs
+-> cuncurrency and parallelism proper way 
